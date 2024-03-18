@@ -50,7 +50,7 @@ server.get('/hello', (req, res) => {
     }
 });
 //parameter http://localhost:3000/hellow/john/doe
-    //must have all parameters or it will not work
+    //must have all parameters 
     //order matters
 server.get('/hellow/:firstName/:lastName', (req, res) => {
     console.log(req.params);
